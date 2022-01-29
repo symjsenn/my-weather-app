@@ -1,0 +1,127 @@
+.card {
+  size: 50px;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/025/848/original/Blush_Wave_Desktop_Wallpaper.png?1643388160");
+}
+
+.date-time {
+  font-size: 25px;
+  color: #3eafaf;
+  padding: 20px;
+  top: 0;
+  right: 0;
+  position: fixed;
+}
+.currentCity {
+  color: #3eafaf;
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  position: relative;
+  left: 80px;
+  top: 30px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.main-temp {
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+#fahr-temp {
+  font-size: 10pt;
+}
+.slash {
+  font-size: 10pt;
+}
+#cels-temp {
+  font-size: 10pt;
+}
+
+.searchBar {
+  padding: 10px;
+  top: 20px;
+  left: 60px;
+  position: relative;
+  font-size: 30px;
+}
+
+#currentLocal {
+  font-size: 12pt;
+  padding: 5px;
+  margin: auto 0;
+  position: relative;
+  top: 10px;
+  border-radius: 5px;
+  background-color: #3eafaf;
+}
+
+.fiveDay {
+  margin: 10px;
+  padding: 30px;
+  border: 20px;
+  border-radius: 5px;
+  border-color: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+.forecast {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  padding: 0px;
+  margin: auto 0;
+}
+.card-1 {
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border: 20px;
+  border-radius: 5px;
+}
+.card-2 {
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border: 20px;
+  border-radius: 5px;
+}
+.card-3 {
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border: 20px;
+  border-radius: 5px;
+}
+.card-4 {
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border: 20px;
+  border-radius: 5px;
+}
+.card-5 {
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border: 20px;
+  border-radius: 5px;
+}
+.fa-cloud {
+  color: #3eafaf;
+}
+
+.fa-cloud-moon-rain {
+  color: #3eafaf;
+}
+
+.fa-cloud-sun {
+  color: #3eafaf;
+}
+
+.myName {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
