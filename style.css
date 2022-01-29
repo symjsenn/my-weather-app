@@ -4,14 +4,14 @@
 
 .date-time {
   font-size: 25px;
-  color: #3eafaf;
+  color: #2c4c62;
   padding: 20px;
   top: 0;
   right: 0;
   position: fixed;
 }
 .currentCity {
-  color: #3eafaf;
+  color: #2c4c62;
   font-size: 70px;
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -58,7 +58,7 @@
   position: relative;
   top: 10px;
   border-radius: 5px;
-  background-color: #3eafaf;
+  background-color: #2c4c62;
 }
 
 .fiveDay {
@@ -81,51 +81,52 @@
 .card-1 {
   background-color: white;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   border: 20px;
   border-radius: 5px;
 }
 .card-2 {
   background-color: white;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   border: 20px;
   border-radius: 5px;
 }
 .card-3 {
   background-color: white;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   border: 20px;
   border-radius: 5px;
 }
 .card-4 {
   background-color: white;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   border: 20px;
   border-radius: 5px;
 }
 .card-5 {
   background-color: white;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   border: 20px;
   border-radius: 5px;
 }
 .fa-cloud {
-  color: #3eafaf;
+  color: #2c4c62;
 }
 
 .fa-cloud-moon-rain {
-  color: #3eafaf;
+  color: #2c4c62;
 }
 
 .fa-cloud-sun {
-  color: #3eafaf;
+  color: #2c4c62;
 }
 
 .myName {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
+  color: white;
 }
