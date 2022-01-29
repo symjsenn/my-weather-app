@@ -38,16 +38,21 @@
   font-size: 10pt;
 }
 
+.heading {
+  font-size: 40px;
+  text-align: center;
+  color: black;
+}
 .searchBar {
   padding: 10px;
   top: 20px;
   left: 60px;
   position: relative;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #currentLocal {
-  font-size: 12pt;
+  font-size: 10pt;
   padding: 5px;
   margin: auto 0;
   position: relative;
