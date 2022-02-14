@@ -1,6 +1,6 @@
 .main-card {
   background-image: url("https://www.kindpng.com/picc/m/53-530092_png-watercolor-transparent-watercolor-blue-png-png-download.png");
-  max-width: 800px;
+  max-width: 600px;
   margin: 15px auto;
   padding: 15px;
 }
@@ -100,5 +100,5 @@
 .myName {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  color: white;
+  color: #2c4c62;
 }
