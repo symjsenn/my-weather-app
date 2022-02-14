@@ -1,5 +1,8 @@
-.card {
+.main-card {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/025/880/original/Blue_and_Orange_Fruit_Wallpaper.png?1643423608");
+  max-width: 800px;
+  margin: 15px auto;
+  padding: 15px;
 }
 
 .date-time {
@@ -45,9 +48,6 @@
 }
 .searchBar {
   padding: 10px;
-  top: 20px;
-  left: 60px;
-  position: relative;
   font-size: 20px;
 }
 
@@ -78,41 +78,17 @@
   padding: 0px;
   margin: auto 0;
 }
-.card-1 {
-  background-color: white;
-  margin: 10px;
-  padding: 10px;
-  border: 20px;
-  border-radius: 5px;
-}
-.card-2 {
-  background-color: white;
-  margin: 10px;
-  padding: 10px;
-  border: 20px;
-  border-radius: 5px;
-}
-.card-3 {
-  background-color: white;
-  margin: 10px;
-  padding: 10px;
-  border: 20px;
-  border-radius: 5px;
-}
-.card-4 {
-  background-color: white;
-  margin: 10px;
-  padding: 10px;
-  border: 20px;
-  border-radius: 5px;
-}
+.card-1,
+.card-2,
+.card-3,
+.card-4,
 .card-5 {
   background-color: white;
-  margin: 10px;
-  padding: 10px;
+  padding: 15px;
   border: 20px;
   border-radius: 5px;
 }
+
 .fa-cloud {
   color: #2c4c62;
 }

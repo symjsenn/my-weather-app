@@ -14,114 +14,125 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <link href="images"/>
+    <link href="images" />
     <script
       src="https://kit.fontawesome.com/3cc7d13524.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <div class="card">
-      <h1 class="date-time">December 4th, 2021 20:17</h1>
+    <div class="main-card">
+      <div class="col text-end">
+        <h1 class="date-time">December 4th, 2021 20:17</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h1 class="currentCity">Weather App 🌎</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h3 class="searchBar">
+          <form class="cityForm">
+            <input
+              id="input-city"
+              type="text"
+              placeholder="Look up a city... 🔎 "
+              autocomplete="off"
+            />
+          </form>
+          <button id="currentLocal">Current Location</button>
+        </h3>
+      </div>
+    </div>
 
-      <h1 class="currentCity">Weather App 🌎</h1>
-      <h3 class="searchBar">
-        <form class="cityForm">
-          <input
-            id="input-city"
-            type="text"
-            placeholder="Look up a city... 🔎 "
-            autocomplete="off"
-          />
-        </form>
-        <button id="currentLocal"> Current Location </button>
-      </h3>
-      
-<p class="heading">Current Temperature:</p>
-      <h2 class="main-temp">
-        <span class="temp-number"></span>
-        <span class="temp-sign">
-          <span class="celsius-temp" role="button" id="cels-temp"
-            >°C</span
-          >
-          <span class="slash">|</span>
-          <span class="fahrenheit-temp" role="button" id="fahr-temp"
-            >°F</span
-          >
-        </span>
-      </h2>
-    
+    <p class="heading">Current Temperature:</p>
+    <h2 class="main-temp">
+      <span class="temp-number"></span>
+      <span class="temp-sign">
+        <span class="celsius-temp" role="button" id="cels-temp">°C</span>
+        <span class="slash">|</span>
+        <span class="fahrenheit-temp" role="button" id="fahr-temp">°F</span>
+      </span>
+    </h2>
 
-      <p class="forecast">5-day Forecast 💫</p>
+    <p class="forecast">5-day Forecast 💫</p>
 
-      <section class="fiveDay">
-        <div class="row">
-          <div class="col">
-            <div class="card-1" style="width: 12;">
-              <div class="card-body">
-                <h5 class="card-title">Monday</h5>
-                <p class="card-text">
-                  80℉ <br />
-                  <i class="fas fa-cloud"></i>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card-2" style="width: 12;">
-              <div class="card-body">
-                <h5 class="card-title">Tuesday</h5>
-                <p class="card-text">
-                  85℉ <br />
-                  <i class="fas fa-cloud-moon-rain"></i>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card-3" style="width: 12;">
-              <div class="card-body">
-                <h5 class="card-title">Wednesday</h5>
-                <p class="card-text">
-                  89℉ <br />
-                  <i class="fas fa-cloud-sun"></i>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card-4" style="width: 12;">
-              <div class="card-body">
-                <h5 class="card-title">Thursday</h5>
-                <p class="card-text">
-                  90℉ <br />
-                  <i class="fas fa-cloud-moon-rain"></i>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card-5" style="width: 12;">
-              <div class="card-body">
-                <h5 class="card-title">Friday</h5>
-                <p class="card-text">
-                  88℉ <br />
-                  <i class="fas fa-cloud"></i>
-                </p>
-              </div>
+    <section class="fiveDay">
+      <div class="row row-cols-5">
+        <div class="col">
+          <div class="card-1">
+            <div class="card-body">
+              <h5 class="card-title">Monday</h5>
+              <p class="card-text">
+                80℉ <br />
+                <i class="fas fa-cloud"></i>
+              </p>
             </div>
           </div>
         </div>
-      </section>
 
-      <br /><br />
-      <footer class="myName">Coded by Symantha Senn<div> <a href="https://github.com/symjsenn/my-weather-app">Open-Source Code</a></div></footer>
-    
+        <div class="col">
+          <div class="card-2">
+            <div class="card-body">
+              <h5 class="card-title">Tuesday</h5>
+              <p class="card-text">
+                85℉ <br />
+                <i class="fas fa-cloud-moon-rain"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-3">
+            <div class="card-body">
+              <h5 class="card-title">Wednesday</h5>
+              <p class="card-text">
+                89℉ <br />
+                <i class="fas fa-cloud-sun"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-4">
+            <div class="card-body">
+              <h5 class="card-title">Thursday</h5>
+              <p class="card-text">
+                90℉ <br />
+                <i class="fas fa-cloud-moon-rain"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-5">
+            <div class="card-body">
+              <h5 class="card-title">Friday</h5>
+              <p class="card-text">
+                88℉ <br />
+                <i class="fas fa-cloud"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br /><br />
+    <footer class="myName">
+      Coded by Symantha Senn
+      <div>
+        <a href="https://github.com/symjsenn/my-weather-app"
+          >Open-Source Code</a
+        >
+      </div>
+    </footer>
+
     <script src="index.js"></script>
   </body>
 </html>
-
